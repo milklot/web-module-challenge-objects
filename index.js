@@ -21,7 +21,7 @@ const breakfastBurrito = {
 function createMenuItem(name, cost, category) {
     let result = new Object();
     result['name'] = name;
-    result['cost'] = cost;
+    result['price'] = cost;
     result['category'] = category;
     return result;
 
@@ -242,7 +242,8 @@ The returned object should have the following characteristics:
 */
 
 
-function carMaker(odoArg) {
+function carMarker(odoArg) {
     let result = {};
 
+    result
 }
